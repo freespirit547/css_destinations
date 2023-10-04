@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "Roboto-Regular", "Arial", sans-serif;
+    src: url(assets\fonts\Roboto\Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold", "Arial", sans-serif;
+    src: url(assets\fonts\Roboto\Roboto-Bold.ttf);
+}
+
+
+body {
+    font-family: "Roboto-Regular", "Arial", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto-Bold", "Arial", sans-serif;
+}
+
+
+.nav_bar {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.paris {
+    width: 430px;
+    height: 630px;
+    background-color: yellow;
+    padding: 20px;
+    border: 2px solid rgb(161, 161, 161);
+}
+
+.tokyo {
+    width: 430px;
+    height: 630px;
+    background-color: greenyellow;
+    padding: 20px;
+    border: 2px solid rgb(161, 161, 161);
+}
+
+.new_york {
+    width: 430px;
+    height: 630px;
+    background-color: orange;
+    padding: 20px;
+    border: 2px solid rgb(161, 161, 161);
+}
+
+#eiffel {
+    width: 430px;
+}
+
+#fujiyama {
+    width: 430px;
+}
+
+#skyscrapers {
+    width: 430px;
+}
+
+.purple_btn {
+    color: white;
+    background-color: purple
+}
+
+.orange_btn {
+    color: white;
+    background-color: orangered;
+}
+
+.blue_btn {
+    color: white;
+    background-color: rgb(20, 130, 145);
+}
